@@ -24,19 +24,19 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I am a software developer with an eye for details. My previous experience as a baker has taught me how to appreciate every component that goes into making a masterpiece — and how to do that while working collaboratively with others in fast-paced, deadline-driven environments. Coder by day and baker by night, I am excited to contribute my skills in team management, designing, and coding with my adaptability, creativity, and people skills to help companies solve problems and achieve their goals.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Software Developer",
+  "Coder",
+  "Designer",
+  "Programmer",
+  "Architect",
+  "Engineer",
 ];
 
 /**
@@ -44,9 +44,7 @@ const skillsList = [
  * how you best work, or even a quote. This will help someone learn more
  * about you on a professional level.
  */
-const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
-
+const detailOrQuote = "Software is easy to make, except when you want it to do something new. And then, of course, there is a corollary: The only software that's worth making is software that does something new. -Scott Rossenberg";
 const About = () => {
   return (
     <section className="light" id="about">

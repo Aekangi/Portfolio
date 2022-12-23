@@ -31,28 +31,29 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
-    description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+    title: "FitNow",
+    description: "It's time to take control of your health today. After a hard day at work, the last thing you want to think about is what to eat and which exercises to follow. Well, here on FitNow, we've got you covered! FitNow is designed for those individuals that would like to get fit through exercises and diet plans. FitNow has well designed dinner plans for each day of the week. Think no more and start scrolling through the app to see what works for you!",
+    description2: "BUILT WITH: POSTGRESQL, EXPRESS, REACT, NODE, CSS",
+    description3: "",
+    url: "https://main.d1pe52f8thbmyf.amplifyapp.com/",
+    gitHub: "https://github.com/Aekangi/FitNow-FrontEnd",
   },
   {
-    title: "Web Development for Beginners",
+    title: "FOOD DIARY",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Food Diary is an application designed to provide food recipes and mocktail recipes for everyday dinners. This app allows a user to view, add, update, and delete recipes. This project was solely built by myself. I understand that there are so many food apps already out there. What sets this app apart from the other apps is the fact that it's a one stop all app. Unlike other apps that only show recipes for either the food or drinks, this app lets you view both. Also the convenience of this app is that they are divided into their own sections. One tab leads you to food recipes while the other tab takes the user to mocktail concoctions. This app was designed to be family-friendly so none of the recipe use alcohol. I hope u enjoy the app!",
+    description2: "BUILT WITH: MONGOOSE, EXPRESS, REACT, NODE, CSS",
+    description3: "",
+    url: "https://fooddiary82.herokuapp.com/",
+    gitHub: "https://github.com/Aekangi/FoodDiaries",
   },
   {
-    title: "My Resume Site",
-    description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
-  },
-  {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+    title: "BuddyUp",
+    description: "Was there any activity that you wanted to do but just didn't have anyone to go with? Well, BuddyUp was specifically tailored for those moments. My team and I built this app from scratch for the sole purpose of eliminating that feeling from a persons life. The purpose of the app is to see an activity, and match with other users that are interested in the same activity. Once there is a match, all of the contact information will be available for the user. In addition to viewing all of the activities, the user has the option to also add, update or delete an event they added. Enjoy the app!",
+    description2: "BUILT WITH: POSTGRESQL, EXPRESS, REACT, NODE, CSS",
+    description3: "",
+    url: "https://buddy-match-up.herokuapp.com/",
+    gitHub: "https://github.com/kalenluciano/buddy-up-frontend",
   },
 ];
 
@@ -75,6 +76,11 @@ const Portfolio = () => {
                 <h3 style={{ flexBasis: "40px" }}>{project.title}</h3>
               </a>
               <p className="small">{project.description}</p>
+              <p className="small">{project.description2}</p>
+              <p className="small">{project.description3}</p>
+              <a href={project.gitHub} target="_blank" rel="noopener noreferrer">
+                <h3 style={{ flexBasis: "40px" }}>Github Repository</h3>
+              </a>
             </div>
           ))}
         </div>
