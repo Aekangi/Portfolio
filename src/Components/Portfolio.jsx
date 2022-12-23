@@ -39,7 +39,7 @@ const projectList = [
     gitHub: "https://github.com/Aekangi/FitNow-FrontEnd",
   },
   {
-    title: "FOOD DIARY",
+    title: "Food Diary",
     description:
       "Food Diary is an application designed to provide food recipes and mocktail recipes for everyday dinners. This app allows a user to view, add, update, and delete recipes. This project was solely built by myself. I understand that there are so many food apps already out there. What sets this app apart from the other apps is the fact that it's a one stop all app. Unlike other apps that only show recipes for either the food or drinks, this app lets you view both. Also the convenience of this app is that they are divided into their own sections. One tab leads you to food recipes while the other tab takes the user to mocktail concoctions. This app was designed to be family-friendly so none of the recipe use alcohol. I hope u enjoy the app!",
     description2: "BUILT WITH: MONGOOSE, EXPRESS, REACT, NODE, CSS",
