@@ -14,9 +14,9 @@ node_modules/
 # Optional eslint cache
 .eslintcache
 
-# dotenv environment variables file
-.env
-.env.test
+# # dotenv environment variables file
+# .env
+# .env.test
 
 # parcel-bundler cache (https://parceljs.org/)
 .parcel-cache
