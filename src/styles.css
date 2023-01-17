@@ -56,9 +56,12 @@ h1 {
 
 h2 {
   font-weight: 400;
-  font-size: 2rem;
+  font-size: 3rem;
   margin: 0;
   text-align: center;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-decoration-color: rgb(163, 157, 157);
 }
 
 h3 {
@@ -116,11 +119,16 @@ a:hover {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  border: 1px solid rgb(204, 204, 204);
+  border: 1px solid rgb(26, 21, 21);
   text-align: center;
+  width: 325px;
 }
 
 img.socialIcon {
   width: 30px;
   height: 30px;
+}
+
+.portfoliobgrd {
+  background-color: rgb(173, 165, 194);
 }

@@ -19,9 +19,13 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/computercoding.jpeg";
+import image1 from "../images/computer1.jpeg";
+import image2 from "../images/code.jpeg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "computer code";
+const image1 = "women on computer";
+const image2 = "coding image"
 
 /**
  * Project list
@@ -55,37 +59,57 @@ const projectList = [
     url: "https://buddy-match-up.herokuapp.com/",
     gitHub: "https://github.com/kalenluciano/buddy-up-frontend",
   },
+  {
+    title: "RAWG",
+    description: "RAWG is a website that's inteded for gamers to come and explore game genres they prefer and find new games within that genre to explore. Through the app, there is a description for each game the user wishes to find out more about. The app was built with an API from the RAWG website itself. Enjoy searching!",
+    description2: "BUILT WITH: VUE.JS, API, JAVASCRIPT, CSS",
+    description3: "",
+    url: "https://main.d2ujbqwsmf57lw.amplifyapp.com/",
+    gitHub: "https://github.com/Aekangi/RAWG",
+  },
 ];
 
 const Portfolio = () => {
   return (
-    <section className="light" id="portfolio">
-      <h2>Portfolio</h2>
-      <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
-        <div style={{ maxWidth: "40%", alignSelf: "center" }}>
-          <img
-            src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
-            alt={imageAltText}
-          />
+    <div className="portfoliobgrd">
+      <section className="light" id="portfolio">
+        <h2>Portfolio</h2>
+        <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
+          <div style={{ maxWidth: "40%", alignSelf: "center" }}>
+            <img
+              src={image}
+              style={{ height: "90%", width: "100%", objectFit: "cover", margin: "20px", borderRadius: "20px" }}
+              alt={imageAltText}
+              />
+              <img
+              src={image1}
+              style={{ height: "90%", width: "100%", objectFit: "cover", margin: "20px", borderRadius: "20px" }}
+              alt={image1}
+              />
+              <img
+              src={image2}
+              style={{ height: "90%", width: "100%", objectFit: "cover", margin: "20px", borderRadius: "20px" }}
+              alt={image2}
+              />
+          </div>
+          <div className="container">
+            {projectList.map((project) => (
+              <div className="box" key={project.title}>
+                <a href={project.url} target="_blank" rel="noopener noreferrer">
+                  <h3 style={{ flexBasis: "40px" }}>{project.title}</h3>
+                </a>
+                <p className="small">{project.description}</p>
+                <p className="small">{project.description2}</p>
+                <p className="small">{project.description3}</p>
+                <a href={project.gitHub} target="_blank" rel="noopener noreferrer">
+                  <h3 style={{ flexBasis: "40px" }}>Github Repository</h3>
+                </a>
+              </div>
+            ))}
+          </div>
         </div>
-        <div className="container">
-          {projectList.map((project) => (
-            <div className="box" key={project.title}>
-              <a href={project.url} target="_blank" rel="noopener noreferrer">
-                <h3 style={{ flexBasis: "40px" }}>{project.title}</h3>
-              </a>
-              <p className="small">{project.description}</p>
-              <p className="small">{project.description2}</p>
-              <p className="small">{project.description3}</p>
-              <a href={project.gitHub} target="_blank" rel="noopener noreferrer">
-                <h3 style={{ flexBasis: "40px" }}>Github Repository</h3>
-              </a>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
+      </section>
+    </div>
   );
 };
 

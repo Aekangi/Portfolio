@@ -44,14 +44,15 @@ const skillsList = [
  * how you best work, or even a quote. This will help someone learn more
  * about you on a professional level.
  */
-const detailOrQuote = "Software is easy to make, except when you want it to do something new. And then, of course, there is a corollary: The only software that's worth making is software that does something new. -Scott Rossenberg";
+const detailOrQuote = "Software is easy to make, except when you want it to do something new. And then, of course, there is a corollary: The only software that's worth making is software that does something new. Scott Rossenberg";
 const About = () => {
   return (
     <section className="light" id="about">
       <img className="background" src={image} alt={imageAltText} />
       <div
         style={{
-          backgroundColor: "white",
+          backgroundColor: "rgb(202, 193, 223)",
+          // opacity: ".9",
           width: "50%",
           padding: "4rem",
           margin: "3rem auto",
