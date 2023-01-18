@@ -82,9 +82,9 @@ const Portfolio = () => {
               alt={imageAltText}
               />
               <img
-              src={image1women}
+              src={image1}
               style={{ height: "90%", width: "100%", objectFit: "cover", margin: "20px", borderRadius: "20px" }}
-              alt={image1}
+              alt={image1women}
               />
               <img
               src={image2}
