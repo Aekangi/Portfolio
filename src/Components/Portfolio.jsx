@@ -56,7 +56,7 @@ const projectList = [
     description: "Was there any activity that you wanted to do but just didn't have anyone to go with? Well, BuddyUp was specifically tailored for those moments. My team and I built this app from scratch for the sole purpose of eliminating that feeling from a persons life. The purpose of the app is to see an activity, and match with other users that are interested in the same activity. Once there is a match, all of the contact information will be available for the user. In addition to viewing all of the activities, the user has the option to also add, update or delete an event they added. Enjoy the app!",
     description2: "BUILT WITH: POSTGRESQL, EXPRESS, REACT, NODE, CSS",
     description3: "",
-    url: "https://buddy-match-up.herokuapp.com/",
+    url: "https://main.d2fug9vebas48u.amplifyapp.com/",
     gitHub: "https://github.com/kalenluciano/buddy-up-frontend",
   },
   {
