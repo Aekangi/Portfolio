@@ -20,12 +20,12 @@ import React from "react";
  * freely use on your site.
  */
 import image from "../images/computercoding.jpeg";
-import image1 from "../images/computer1.jpeg";
+import image1 from "../images/womencoding.jpeg";
 import image2 from "../images/code.jpeg";
 
 const imageAltText = "computer code";
-const image1 = "women on computer";
-const image2 = "coding image"
+const image1women = "women on computer";
+const image2code = "coding image"
 
 /**
  * Project list
@@ -82,14 +82,14 @@ const Portfolio = () => {
               alt={imageAltText}
               />
               <img
-              src={image1}
+              src={image1women}
               style={{ height: "90%", width: "100%", objectFit: "cover", margin: "20px", borderRadius: "20px" }}
               alt={image1}
               />
               <img
               src={image2}
               style={{ height: "90%", width: "100%", objectFit: "cover", margin: "20px", borderRadius: "20px" }}
-              alt={image2}
+              alt={image2code}
               />
           </div>
           <div className="container">
