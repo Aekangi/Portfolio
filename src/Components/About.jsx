@@ -31,12 +31,12 @@ const description =
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Software Developer",
-  "Coder",
-  "Designer",
-  "Programmer",
-  "Architect",
-  "Engineer",
+  "JavaScript",
+  "Python",
+  "HTML5",
+  "React",
+  "Vue",
+  "SQL",
 ];
 
 /**
