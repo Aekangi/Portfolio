@@ -19,7 +19,7 @@ const Header = () => {
       <a href="#about">About</a>
       <a href="#portfolio">Portfolio</a>
       <a href="#contact">Contact</a>
-      <a href="/pdf/Aekangi-Patel-GA.pdf" download="Aekangi-Patel-GA.pdf">Resume</a>
+      <a href="../pdf/Aekangi-Patel-GA.pdf" download="Aekangi-Patel-GA.pdf">Resume</a>
     </div>
   );
 };
