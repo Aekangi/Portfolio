@@ -6,7 +6,7 @@ import image from "../images/mosaic.svg";
 const imageAltText = "purple and blue abstract background";
 
 const description =
-  "I am a software developer with an eye for details. My previous experience as a baker has taught me how to appreciate every component that goes into making a masterpiece — and how to do that while working collaboratively with others in fast-paced, deadline-driven environments. Coder by day and baker by night, I am excited to contribute my skills in team management, designing, and coding with my adaptability, creativity, and people skills to help companies solve problems and achieve their goals.";
+  "Versatile professional transitioning from a successful career as a paralegal to pursue a new path as a software engineer. Combining my strong analytical and problem-solving skills with a passion for technology, I am eager to contribute to innovative software development projects and embrace continuous learning in this dynamic field.";
 
 const skillsList = [
   "JavaScript",
