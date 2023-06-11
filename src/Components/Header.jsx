@@ -1,4 +1,5 @@
 import React from "react";
+import myFile from "./static/my-file.pdf";
 
 const Header = () => {
   return (
@@ -19,7 +20,7 @@ const Header = () => {
       <a href="#about">About</a>
       <a href="#portfolio">Portfolio</a>
       <a href="#contact">Contact</a>
-      <a href="../pdf/Aekangi-Patel-GA.pdf" download="Aekangi-Patel-GA.pdf">Resume</a>
+      <a href={myFile}>Resume</a>
     </div>
   );
 };
