@@ -59,7 +59,7 @@ h2 {
   font-size: 3rem;
   margin: 0;
   text-align: center;
-  text-decoration: underline;
+  /* text-decoration: underline; */
   text-decoration-thickness: 1px;
   text-decoration-color: rgb(163, 157, 157);
 }
